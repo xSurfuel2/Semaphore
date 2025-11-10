@@ -50,7 +50,7 @@ Coche 4 ha entrado. Plazas ocupadas: 3
 ...
 ```
 
-📸 **Captura de ejecución (`cap1.png`)**  
+📸 **Captura de ejecución !(cap1.png)[Captura consola]**  
 Muestra el programa corriendo en consola, donde se observan los coches entrando, esperando y saliendo, garantizando que nunca haya más de **3 vehículos simultáneamente aparcados**.  
 Esto confirma que el control de concurrencia con `Semaphore` funciona correctamente.
 
