@@ -41,7 +41,7 @@ public class Aparcamiento {
                 //Bloquea hasta que se le pueda asignar una plaza
                 semaphore.acquire();
 
-                //Cuando entra, log de entrada normal
+                //Log de entrada normal
                 synchronized (this) {
                     plazasOcupadas++;
                     System.out.printf("%s ha entrado. Plazas ocupadas: %d%n", nombre, plazasOcupadas);
